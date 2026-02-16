@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 import pandas as pd
 
-from NHS-TT-Baseline-Subgroup-Evaluation-and-Recalibration.config import Paper3Config, default_groups
+from NHS-TT-Baseline-Subgroup-Evaluation-and-Recalibration.config import Config, default_groups
 from NHS-TT-Baseline-Subgroup-Evaluation-and-Recalibration.preprocessing import (
     load_and_filter,
     coerce_numeric,
