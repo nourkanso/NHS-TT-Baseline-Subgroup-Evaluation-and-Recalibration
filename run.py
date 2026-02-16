@@ -22,7 +22,7 @@ def main():
     # --------------------------
     # EDIT THESE PER OUTCOME RUN
     # --------------------------
-    cfg = Paper3Config(
+    cfg = Config(
         seed=42,
         test_size=0.30,
         ece_bins=10,
