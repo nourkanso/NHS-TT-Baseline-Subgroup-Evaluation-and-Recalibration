@@ -5,7 +5,7 @@ from typing import List, Optional
 
 
 @dataclass(frozen=True)
-class Paper3Config:
+class Config:
     seed: int = 42
     test_size: float = 0.30
 
